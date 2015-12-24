@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="95q-Fx-NhQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="zzB-5F-gtk">
+            <objects>
+                <tableViewController id="ixf-yd-DU4" customClass="MainTableViewController" customModule="RaisedCenterTabBarSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" id="WH3-h5-pSx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ol5-1M-i3h">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="XK7-Zu-CBn" imageView="s21-NW-81c" style="IBUITableViewCellStyleDefault" id="zc0-J7-YK7">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="57"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zc0-J7-YK7" id="8SW-CJ-hRp">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Instagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XK7-Zu-CBn">
+                                                    <rect key="frame" x="86" y="0.0" width="479" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Icon" id="s21-NW-81c">
+                                                    <rect key="frame" x="15" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="53G-YA-isE" kind="show" identifier="showInstagramTabBar" id="Mp6-bf-uU7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="rnr-mT-3gd" imageView="F4v-ZN-TgE" style="IBUITableViewCellStyleDefault" id="rEC-hP-IQD">
+                                        <rect key="frame" x="0.0" y="121" width="600" height="57"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rEC-hP-IQD" id="jjH-x0-Tcg">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Path" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rnr-mT-3gd">
+                                                    <rect key="frame" x="86" y="0.0" width="479" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="app-icon-114" id="F4v-ZN-TgE">
+                                                    <rect key="frame" x="15" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="53G-YA-isE" kind="show" identifier="showPathTabBar" id="kfH-cw-MBZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="oTk-ek-OBF" imageView="DqF-kZ-msX" style="IBUITableViewCellStyleDefault" id="ePA-kh-U7l">
+                                        <rect key="frame" x="0.0" y="178" width="600" height="57"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ePA-kh-U7l" id="7Su-Ix-k78">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="DailyBooth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oTk-ek-OBF">
+                                                    <rect key="frame" x="86" y="0.0" width="479" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="DailyBoothIcon" id="DqF-kZ-msX">
+                                                    <rect key="frame" x="15" y="0.0" width="56" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="53G-YA-isE" kind="show" identifier="showDailyBoothTabBar" id="3Of-Zh-w1q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ixf-yd-DU4" id="M4d-Hd-oaX"/>
+                            <outlet property="delegate" destination="ixf-yd-DU4" id="Ep6-mh-4wP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Home" id="ilv-td-NaG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qgd-wK-P2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1188" y="397"/>
+        </scene>
+        <!--Demo Custom Tab Bar Controller-->
+        <scene sceneID="ueQ-Nx-9H1">
+            <objects>
+                <tabBarController modalTransitionStyle="flipHorizontal" id="53G-YA-isE" customClass="DemoCustomTabBarController" customModule="RaisedCenterTabBarSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="pfi-hW-KiP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Twd-Wg-bnh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2092" y="397"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="X9O-MQ-6VF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="95q-Fx-NhQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cju-1l-XwP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ixf-yd-DU4" kind="relationship" relationship="rootViewController" id="Gti-h2-tPe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xoy-YQ-YCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="376" y="397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DailyBoothIcon" width="57" height="57"/>
+        <image name="Icon" width="57" height="57"/>
+        <image name="app-icon-114" width="114" height="114"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Mp6-bf-uU7"/>
+    </inferredMetricsTieBreakers>
+</document>
